@@ -1,0 +1,43 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "https://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="https://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8"/>
+<title>TestNG Report</title>
+<style type="text/css">table {margin-bottom:10px;border-collapse:collapse;empty-cells:show}th,td {border:1px solid #009;padding:.25em .5em}th {vertical-align:bottom}td {vertical-align:top}table a {font-weight:bold}.stripe td {background-color: #E6EBF9}.num {text-align:right}.passedodd td {background-color: #3F3}.passedeven td {background-color: #0A0}.skippedodd td {background-color: #DDD}.skippedeven td {background-color: #CCC}.failedodd td,.attn {background-color: #F33}.failedeven td,.stripe .attn {background-color: #D00}.stacktrace {white-space:pre;font-family:monospace}.totop {font-size:85%;text-align:center;border-bottom:2px solid #000}.invisible {display:none}</style>
+</head>
+<body>
+<table>
+<tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Retried</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
+<tr><th colspan="8">Suite</th></tr>
+<tr><td><a href="#t0">Test</a></td><td class="num">11</td><td class="num">0</td><td class="num">0</td><td class="num attn">3</td><td class="num">556,243</td><td></td><td></td></tr>
+</table>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Test &#8212; failed</th></tr><tr class="failedeven"><td rowspan="1">com.automation.testCases.ProductPageTest</td><td><a href="#m0">descriptionTest</a></td><td rowspan="1">1650117593394</td><td rowspan="1">13812</td></tr><tr class="failedodd"><td rowspan="2">com.automation.testCases.Registration_Test</td><td><a href="#m1">regTest_invalid_emailId</a></td><td rowspan="1">1650117251060</td><td rowspan="1">45980</td></tr><tr class="failedodd"><td><a href="#m2">regTest_validCredentials</a></td><td rowspan="1">1650117183589</td><td rowspan="1">47122</td></tr><tr><th colspan="4">Test &#8212; passed</th></tr><tr class="passedeven"><td rowspan="3">com.automation.testCases.HomePage_Test</td><td><a href="#m3">arrivalNavigationTest</a></td><td rowspan="1">1650117119709</td><td rowspan="1">11662</td></tr><tr class="passedeven"><td><a href="#m4">arrivals_Test</a></td><td rowspan="1">1650117152071</td><td rowspan="1">185</td></tr><tr class="passedeven"><td><a href="#m5">slider_Test</a></td><td rowspan="1">1650117166858</td><td rowspan="1">190</td></tr><tr class="passedodd"><td rowspan="8">com.automation.testCases.Login_Test</td><td><a href="#m6">caseChange_Test</a></td><td rowspan="1">1650117323892</td><td rowspan="1">22407</td></tr><tr class="passedodd"><td><a href="#m7">loginAuthontication</a></td><td rowspan="1">1650117385389</td><td rowspan="1">33083</td></tr><tr class="passedodd"><td><a href="#m8">loginTestWithInvalidCreedentials</a></td><td rowspan="4">1650117511916</td><td rowspan="4">13788</td></tr><tr class="passedodd"><td><a href="#m9">loginTestWithInvalidCreedentials</a></td></tr><tr class="passedodd"><td><a href="#m10">loginTestWithInvalidCreedentials</a></td></tr><tr class="passedodd"><td><a href="#m11">loginTestWithInvalidCreedentials</a></td></tr><tr class="passedodd"><td><a href="#m12">loginTestWithValidCredentials</a></td><td rowspan="1">1650117538972</td><td rowspan="1">15457</td></tr><tr class="passedodd"><td><a href="#m13">passwordFiled_Test</a></td><td rowspan="1">1650117570578</td><td rowspan="1">7072</td></tr></tbody>
+</table>
+<h2>Test</h2><h3 id="m0">com.automation.testCases.ProductPageTest#descriptionTest</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.AssertionError: expected [q] but found [p]
+	at com.automation.pageObject.ProductPage.description(ProductPage.java:29)
+	at com.automation.testCases.ProductPageTest.descriptionTest(ProductPageTest.java:14)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 33 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m1">com.automation.testCases.Registration_Test#regTest_invalid_emailId</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.NullPointerException: Cannot invoke &quot;org.openqa.selenium.WebElement.getText()&quot; because the return value of &quot;com.automation.pageObject.RegistrationOrLoginPage.getElement(org.openqa.selenium.By)&quot; is null
+	at com.automation.pageObject.RegistrationOrLoginPage.doRegistration(RegistrationOrLoginPage.java:40)
+	at com.automation.testCases.Registration_Test.regTest_invalid_emailId(Registration_Test.java:23)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 27 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m2">com.automation.testCases.Registration_Test#regTest_validCredentials</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.NullPointerException: Cannot invoke &quot;org.openqa.selenium.WebElement.getText()&quot; because the return value of &quot;com.automation.pageObject.RegistrationOrLoginPage.getElement(org.openqa.selenium.By)&quot; is null
+	at com.automation.pageObject.RegistrationOrLoginPage.doRegistration(RegistrationOrLoginPage.java:40)
+	at com.automation.testCases.Registration_Test.regTest_validCredentials(Registration_Test.java:16)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 27 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m3">com.automation.testCases.HomePage_Test#arrivalNavigationTest</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m4">com.automation.testCases.HomePage_Test#arrivals_Test</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m5">com.automation.testCases.HomePage_Test#slider_Test</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m6">com.automation.testCases.Login_Test#caseChange_Test</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m7">com.automation.testCases.Login_Test#loginAuthontication</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m8">com.automation.testCases.Login_Test#loginTestWithInvalidCreedentials</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td></td><td></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m9">com.automation.testCases.Login_Test#loginTestWithInvalidCreedentials</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td></td><td>dsd23rDA</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m10">com.automation.testCases.Login_Test#loginTestWithInvalidCreedentials</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td>pink.monk@gamil.com</td><td></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m11">com.automation.testCases.Login_Test#loginTestWithInvalidCreedentials</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td>asda@asf</td><td>dsd</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m12">com.automation.testCases.Login_Test#loginTestWithValidCredentials</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m13">com.automation.testCases.Login_Test#passwordFiled_Test</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+</body>
+</html>

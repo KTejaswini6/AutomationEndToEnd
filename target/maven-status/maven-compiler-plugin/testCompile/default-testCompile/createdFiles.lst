@@ -1,0 +1,15 @@
+com\automation\testCases\ProductPageTest.class
+com\automation\testCases\Login_Test.class
+com\automation\utilities\DataProviderFoTesting.class
+com\automation\testCases\BaseTest.class
+com\automation\testCases\HomePage_Test.class
+com\automation\pageObject\HomePage.class
+com\automation\main\BasePage.class
+com\automation\pageObject\ShopePage.class
+com\automation\pageObject\RegistrationOrLoginPage.class
+com\automation\testCases\Registration_Test.class
+com\automation\main\Page.class
+com\automation\utilities\Listeners.class
+com\automation\utilities\ReadConfiguration.class
+com\automation\pageObject\ProductPage.class
+com\automation\pageObject\MyAccountPage.class

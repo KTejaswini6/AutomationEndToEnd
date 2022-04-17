@@ -1,0 +1,358 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="2" total="16" passed="11" failed="3" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-04-16T19:20:52 IST" name="Suite" finished-at="2022-04-16T19:30:08 IST" duration-ms="556243">
+    <groups>
+    </groups>
+    <test started-at="2022-04-16T19:20:52 IST" name="Test" finished-at="2022-04-16T19:30:08 IST" duration-ms="556243">
+      <class name="com.automation.testCases.Login_Test">
+        <test-method is-config="true" signature="initialization()[pri:0, instance:com.automation.testCases.Login_Test@740cae06]" started-at="2022-04-16T19:24:58 IST" name="initialization" finished-at="2022-04-16T19:25:23 IST" duration-ms="25524" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialization -->
+        <test-method signature="caseChange_Test()[pri:0, instance:com.automation.testCases.Login_Test@740cae06]" started-at="2022-04-16T19:25:23 IST" name="caseChange_Test" finished-at="2022-04-16T19:25:46 IST" duration-ms="22407" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- caseChange_Test -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.automation.testCases.Login_Test@740cae06]" started-at="2022-04-16T19:25:46 IST" name="tearDown" finished-at="2022-04-16T19:25:49 IST" duration-ms="3052" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="initialization()[pri:0, instance:com.automation.testCases.Login_Test@740cae06]" started-at="2022-04-16T19:25:49 IST" name="initialization" finished-at="2022-04-16T19:26:25 IST" duration-ms="36025" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialization -->
+        <test-method signature="loginAuthontication()[pri:0, instance:com.automation.testCases.Login_Test@740cae06]" started-at="2022-04-16T19:26:25 IST" name="loginAuthontication" finished-at="2022-04-16T19:26:58 IST" duration-ms="33083" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginAuthontication -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.automation.testCases.Login_Test@740cae06]" started-at="2022-04-16T19:26:58 IST" name="tearDown" finished-at="2022-04-16T19:26:58 IST" duration-ms="397" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="initialization()[pri:0, instance:com.automation.testCases.Login_Test@740cae06]" started-at="2022-04-16T19:26:58 IST" name="initialization" finished-at="2022-04-16T19:27:13 IST" duration-ms="14928" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialization -->
+        <test-method signature="loginTestWithInvalidCreedentials(java.lang.String,java.lang.String)[pri:0, instance:com.automation.testCases.Login_Test@740cae06]" started-at="2022-04-16T19:27:13 IST" name="loginTestWithInvalidCreedentials" data-provider="DataForNegativeTesting" finished-at="2022-04-16T19:27:26 IST" duration-ms="13081" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[asda@asf]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[dsd]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTestWithInvalidCreedentials -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.automation.testCases.Login_Test@740cae06]" started-at="2022-04-16T19:27:26 IST" name="tearDown" finished-at="2022-04-16T19:27:27 IST" duration-ms="472" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="initialization()[pri:0, instance:com.automation.testCases.Login_Test@740cae06]" started-at="2022-04-16T19:27:27 IST" name="initialization" finished-at="2022-04-16T19:27:40 IST" duration-ms="12673" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialization -->
+        <test-method signature="loginTestWithInvalidCreedentials(java.lang.String,java.lang.String)[pri:0, instance:com.automation.testCases.Login_Test@740cae06]" started-at="2022-04-16T19:27:40 IST" name="loginTestWithInvalidCreedentials" data-provider="DataForNegativeTesting" finished-at="2022-04-16T19:27:53 IST" duration-ms="13530" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[pink.monk@gamil.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTestWithInvalidCreedentials -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.automation.testCases.Login_Test@740cae06]" started-at="2022-04-16T19:27:53 IST" name="tearDown" finished-at="2022-04-16T19:27:53 IST" duration-ms="335" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="initialization()[pri:0, instance:com.automation.testCases.Login_Test@740cae06]" started-at="2022-04-16T19:27:53 IST" name="initialization" finished-at="2022-04-16T19:28:05 IST" duration-ms="11730" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialization -->
+        <test-method signature="loginTestWithInvalidCreedentials(java.lang.String,java.lang.String)[pri:0, instance:com.automation.testCases.Login_Test@740cae06]" started-at="2022-04-16T19:28:05 IST" name="loginTestWithInvalidCreedentials" data-provider="DataForNegativeTesting" finished-at="2022-04-16T19:28:17 IST" duration-ms="12272" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[dsd23rDA]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTestWithInvalidCreedentials -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.automation.testCases.Login_Test@740cae06]" started-at="2022-04-16T19:28:17 IST" name="tearDown" finished-at="2022-04-16T19:28:18 IST" duration-ms="524" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="initialization()[pri:0, instance:com.automation.testCases.Login_Test@740cae06]" started-at="2022-04-16T19:28:18 IST" name="initialization" finished-at="2022-04-16T19:28:31 IST" duration-ms="13447" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialization -->
+        <test-method signature="loginTestWithInvalidCreedentials(java.lang.String,java.lang.String)[pri:0, instance:com.automation.testCases.Login_Test@740cae06]" started-at="2022-04-16T19:28:31 IST" name="loginTestWithInvalidCreedentials" data-provider="DataForNegativeTesting" finished-at="2022-04-16T19:28:45 IST" duration-ms="13788" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTestWithInvalidCreedentials -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.automation.testCases.Login_Test@740cae06]" started-at="2022-04-16T19:28:45 IST" name="tearDown" finished-at="2022-04-16T19:28:46 IST" duration-ms="425" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="initialization()[pri:0, instance:com.automation.testCases.Login_Test@740cae06]" started-at="2022-04-16T19:28:46 IST" name="initialization" finished-at="2022-04-16T19:28:58 IST" duration-ms="12837" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialization -->
+        <test-method signature="loginTestWithValidCredentials()[pri:0, instance:com.automation.testCases.Login_Test@740cae06]" started-at="2022-04-16T19:28:58 IST" name="loginTestWithValidCredentials" finished-at="2022-04-16T19:29:14 IST" duration-ms="15457" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTestWithValidCredentials -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.automation.testCases.Login_Test@740cae06]" started-at="2022-04-16T19:29:14 IST" name="tearDown" finished-at="2022-04-16T19:29:14 IST" duration-ms="292" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="initialization()[pri:0, instance:com.automation.testCases.Login_Test@740cae06]" started-at="2022-04-16T19:29:14 IST" name="initialization" finished-at="2022-04-16T19:29:30 IST" duration-ms="15853" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialization -->
+        <test-method signature="passwordFiled_Test()[pri:0, instance:com.automation.testCases.Login_Test@740cae06]" started-at="2022-04-16T19:29:30 IST" name="passwordFiled_Test" finished-at="2022-04-16T19:29:37 IST" duration-ms="7072" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- passwordFiled_Test -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.automation.testCases.Login_Test@740cae06]" started-at="2022-04-16T19:29:37 IST" name="tearDown" finished-at="2022-04-16T19:29:38 IST" duration-ms="559" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.automation.testCases.Login_Test -->
+      <class name="com.automation.testCases.ProductPageTest">
+        <test-method is-config="true" signature="initialization()[pri:0, instance:com.automation.testCases.ProductPageTest@26d9b808]" started-at="2022-04-16T19:29:38 IST" name="initialization" finished-at="2022-04-16T19:29:53 IST" duration-ms="15179" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialization -->
+        <test-method signature="descriptionTest()[pri:0, instance:com.automation.testCases.ProductPageTest@26d9b808]" started-at="2022-04-16T19:29:53 IST" name="descriptionTest" finished-at="2022-04-16T19:30:07 IST" duration-ms="13812" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [q] but found [p]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [q] but found [p]
+at org.testng.Assert.fail(Assert.java:110)
+at org.testng.Assert.failNotEquals(Assert.java:1413)
+at org.testng.Assert.assertEqualsImpl(Assert.java:149)
+at org.testng.Assert.assertEquals(Assert.java:131)
+at org.testng.Assert.assertEquals(Assert.java:655)
+at org.testng.Assert.assertEquals(Assert.java:665)
+at com.automation.pageObject.ProductPage.description(ProductPage.java:29)
+at com.automation.testCases.ProductPageTest.descriptionTest(ProductPageTest.java:14)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:135)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:673)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:220)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:945)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:193)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:808)
+at org.testng.TestRunner.run(TestRunner.java:603)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:429)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:423)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:383)
+at org.testng.SuiteRunner.run(SuiteRunner.java:326)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1249)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+at org.testng.TestNG.runSuites(TestNG.java:1092)
+at org.testng.TestNG.run(TestNG.java:1060)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- descriptionTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.automation.testCases.ProductPageTest@26d9b808]" started-at="2022-04-16T19:30:07 IST" name="tearDown" finished-at="2022-04-16T19:30:08 IST" duration-ms="728" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.automation.testCases.ProductPageTest -->
+      <class name="com.automation.testCases.Registration_Test">
+        <test-method is-config="true" signature="initialization()[pri:0, instance:com.automation.testCases.Registration_Test@f0c8a99]" started-at="2022-04-16T19:22:47 IST" name="initialization" finished-at="2022-04-16T19:23:03 IST" duration-ms="16148" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialization -->
+        <test-method signature="regTest_validCredentials()[pri:1, instance:com.automation.testCases.Registration_Test@f0c8a99]" started-at="2022-04-16T19:23:03 IST" name="regTest_validCredentials" finished-at="2022-04-16T19:23:50 IST" duration-ms="47122" status="FAIL">
+          <exception class="java.lang.NullPointerException">
+            <message>
+              <![CDATA[Cannot invoke "org.openqa.selenium.WebElement.getText()" because the return value of "com.automation.pageObject.RegistrationOrLoginPage.getElement(org.openqa.selenium.By)" is null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.WebElement.getText()" because the return value of "com.automation.pageObject.RegistrationOrLoginPage.getElement(org.openqa.selenium.By)" is null
+at com.automation.pageObject.RegistrationOrLoginPage.doRegistration(RegistrationOrLoginPage.java:40)
+at com.automation.testCases.Registration_Test.regTest_validCredentials(Registration_Test.java:16)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:135)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:673)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:220)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:945)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:193)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:808)
+at org.testng.TestRunner.run(TestRunner.java:603)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:429)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:423)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:383)
+at org.testng.SuiteRunner.run(SuiteRunner.java:326)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1249)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+at org.testng.TestNG.runSuites(TestNG.java:1092)
+at org.testng.TestNG.run(TestNG.java:1060)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- regTest_validCredentials -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.automation.testCases.Registration_Test@f0c8a99]" started-at="2022-04-16T19:23:51 IST" name="tearDown" finished-at="2022-04-16T19:23:52 IST" duration-ms="1048" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="initialization()[pri:0, instance:com.automation.testCases.Registration_Test@f0c8a99]" started-at="2022-04-16T19:23:52 IST" name="initialization" finished-at="2022-04-16T19:24:11 IST" duration-ms="18628" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialization -->
+        <test-method signature="regTest_invalid_emailId()[pri:2, instance:com.automation.testCases.Registration_Test@f0c8a99]" started-at="2022-04-16T19:24:11 IST" name="regTest_invalid_emailId" finished-at="2022-04-16T19:24:57 IST" duration-ms="45980" status="FAIL">
+          <exception class="java.lang.NullPointerException">
+            <message>
+              <![CDATA[Cannot invoke "org.openqa.selenium.WebElement.getText()" because the return value of "com.automation.pageObject.RegistrationOrLoginPage.getElement(org.openqa.selenium.By)" is null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.WebElement.getText()" because the return value of "com.automation.pageObject.RegistrationOrLoginPage.getElement(org.openqa.selenium.By)" is null
+at com.automation.pageObject.RegistrationOrLoginPage.doRegistration(RegistrationOrLoginPage.java:40)
+at com.automation.testCases.Registration_Test.regTest_invalid_emailId(Registration_Test.java:23)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:135)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:673)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:220)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:945)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:193)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:808)
+at org.testng.TestRunner.run(TestRunner.java:603)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:429)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:423)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:383)
+at org.testng.SuiteRunner.run(SuiteRunner.java:326)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1249)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+at org.testng.TestNG.runSuites(TestNG.java:1092)
+at org.testng.TestNG.run(TestNG.java:1060)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- regTest_invalid_emailId -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.automation.testCases.Registration_Test@f0c8a99]" started-at="2022-04-16T19:24:57 IST" name="tearDown" finished-at="2022-04-16T19:24:58 IST" duration-ms="880" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.automation.testCases.Registration_Test -->
+      <class name="com.automation.testCases.HomePage_Test">
+        <test-method is-config="true" signature="initialization()[pri:0, instance:com.automation.testCases.HomePage_Test@534a5a98]" started-at="2022-04-16T19:20:52 IST" name="initialization" finished-at="2022-04-16T19:21:59 IST" duration-ms="67257" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialization -->
+        <test-method signature="arrivalNavigationTest()[pri:0, instance:com.automation.testCases.HomePage_Test@534a5a98]" started-at="2022-04-16T19:21:59 IST" name="arrivalNavigationTest" finished-at="2022-04-16T19:22:11 IST" duration-ms="11662" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- arrivalNavigationTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.automation.testCases.HomePage_Test@534a5a98]" started-at="2022-04-16T19:22:11 IST" name="tearDown" finished-at="2022-04-16T19:22:12 IST" duration-ms="755" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="initialization()[pri:0, instance:com.automation.testCases.HomePage_Test@534a5a98]" started-at="2022-04-16T19:22:12 IST" name="initialization" finished-at="2022-04-16T19:22:32 IST" duration-ms="19921" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialization -->
+        <test-method signature="arrivals_Test()[pri:0, instance:com.automation.testCases.HomePage_Test@534a5a98]" started-at="2022-04-16T19:22:32 IST" name="arrivals_Test" finished-at="2022-04-16T19:22:32 IST" duration-ms="185" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- arrivals_Test -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.automation.testCases.HomePage_Test@534a5a98]" started-at="2022-04-16T19:22:32 IST" name="tearDown" finished-at="2022-04-16T19:22:32 IST" duration-ms="357" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="initialization()[pri:0, instance:com.automation.testCases.HomePage_Test@534a5a98]" started-at="2022-04-16T19:22:32 IST" name="initialization" finished-at="2022-04-16T19:22:46 IST" duration-ms="14236" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialization -->
+        <test-method signature="slider_Test()[pri:0, instance:com.automation.testCases.HomePage_Test@534a5a98]" started-at="2022-04-16T19:22:46 IST" name="slider_Test" finished-at="2022-04-16T19:22:47 IST" duration-ms="190" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- slider_Test -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.automation.testCases.HomePage_Test@534a5a98]" started-at="2022-04-16T19:22:47 IST" name="tearDown" finished-at="2022-04-16T19:22:47 IST" duration-ms="381" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.automation.testCases.HomePage_Test -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
