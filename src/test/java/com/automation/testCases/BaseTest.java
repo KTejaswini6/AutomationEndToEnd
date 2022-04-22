@@ -19,8 +19,8 @@ import io.github.bonigarcia.wdm.WebDriverManager;
 public class BaseTest {
 
 	//WebDriver driver;
-	Page page;
-	ReadConfiguration rc=new ReadConfiguration();
+	public Page page;
+	public ReadConfiguration rc=new ReadConfiguration();
 	String browserName=rc.getBrowserName();
 	String url=rc.getURL();
 	String userId=rc.getUserId();
